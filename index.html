@@ -7,55 +7,42 @@
    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-   <!-- I want to show how flexbox function differently than cssgrid -->
-   <div class="content-wrapper">
-      <h1>Price List</h1>
-      <div class="content">
-    <!--social 1 -->
-        <div class="social">
-          <div class="text">
-            <h1>Elementary</h1>
-            <h3>FREE</h3>
-            <ul>
-              <li>Feature 1</li>
-              <li>Feature 2</li>
-              <li>Feature 3</li>
-            </ul>
-          </div>
-          <div class="sign-up"><a href="#" class="button">Sign Up</a></div>
-        </div> 
-    <!--social 2 -->
-        <div class="social">
-          <div class="text">
-            <h1>Business</h1>
-            <h3>$50</h3>
-            <ul>
-              <li>Feature 1</li>
-              <li>Feature 2</li>
-              <li>Feature 3</li>
-              <li>Feature 4</li>
-            </ul>
-          </div>
-          <div class="sign-up"><a href="#" class="button">Sign Up</a></div>
-        </div> 
-  <!--social 3 -->
-        <div class="social">
-          <div class="text">
-            <h1>Enterprise</h1>
-            <h3>$99</h3>
-            <ul>
-              <li>Feature 1</li>
-              <li>Feature 2</li>
-              <li>Feature 3</li>
-              <li>Feature 4</li>
-              <li>Feature 5</li>
-            </ul>
-          </div>
-          <div class="sign-up"><a href="#" class="button">Sign Up</a></div>
-        </div>
-
-   </div> <!--content -->
-  </div> <!-- content wrapper -->
+   <!-- I want to show how flexbox differentiates  -->
+   <div class="columns">
+    <ul class="price">
+      <li class="header">Elementary</li>
+      <li class="grey">FREE</li>
+      <li>Feature 1</li>
+      <li>Feature 2</li>
+      <li>Feature 3</li>
+    </ul>
+    <div class="sign-up"><a href="#" class="button">Sign Up</a></div>
+  </div>
+  
+  <div class="columns">
+    <ul class="price">
+      <li class="header" style="background-color:#4CAF50">Business</li>
+      <li class="grey">$50</li>
+      <li>Feature 1</li>
+      <li>Feature 2</li>
+      <li>Feature 3</li>
+      <li>Feature 4</li>
+    </ul>
+    <div class="sign-up"><a href="#" class="button">Sign Up</a></div>
+  </div>
+  
+  <div class="columns">
+    <ul class="price">
+      <li class="header">Enterprise</li>
+      <li class="grey">$99</li>
+      <li>Feature 1</li>
+      <li>Feature 2</li>
+      <li>Feature 3</li>
+      <li>Feature 4</li>
+      <li>Feature 5</li>
+    </ul>
+    <div class="sign-up"><a href="#" class="button">Sign Up</a></div>
+  </div>
 <!-- script --> 
 <script src="script.js"></script>
 </body>
