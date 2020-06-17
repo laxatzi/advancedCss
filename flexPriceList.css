@@ -11,7 +11,7 @@ body {
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
- h1,h3{
+ h1,h2,h3{
    text-align:center;
    text-transform:uppercase;
    letter-spacing:4px;
@@ -29,7 +29,7 @@ body {
    font-size:1em;
    }
  h3 { 
-    font-size:3em;
+    font-size:2em;
     font-family:'Old Standard TT';
 }
 .content-wrapper{
